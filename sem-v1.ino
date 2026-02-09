@@ -34,11 +34,11 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // ==================== CONFIGURATION ====================
 // WiFi Credentials
-const char* WIFI_SSID = "wifi123";
-const char* WIFI_PASSWORD = "neos3@abc";
+const char* WIFI_SSID = "wifi_id";
+const char* WIFI_PASSWORD = "wifi_pp";
 
 // ThingSpeak Settings
-const char* THINGSPEAK_API_KEY = "K117LE7UT2L7L8AF";
+const char* THINGSPEAK_API_KEY = "thinspeak_api_key";
 const char* THINGSPEAK_SERVER = "api.thingspeak.com";
 const unsigned long CHANNEL_ID = 0; // Your channel ID (optional, for reference)
 
